@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    background-color: gray;
+}
+header{
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: red;
+    color: aliceblue;
+}
+.boomboom{
+    font-size: 25px;
+    color: black;
+}
+.boomboom h3{
+    font-size: 20px;
+    color: red;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+
+}
+.gallery{
+    margin: 5px;
+    border: 1px,solid,#ccc;
+    float: left;
+    width: 390px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.beee{
+    width: 20%;
+    font-size: 50px;
+    font-weight: 20px;
+    font-style: italic;
+    background-color: grey;
+    color:red;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.team{display: ;
+
+}
+.mansoup{ 
+    background-color: antiquewhite;
+    padding-top: 50px;
+    margin-top: 50px;
+    display:inline-block;
+
+       }
+    .mansoup img{
+        width: 80%;
+        display: inline-block;
+        background-image: url(/lion.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        padding: 50px;
+        margin: 50px;
+    }   
+    p{
+        font-size: 25px;
+        font-weight: 20px;
+        font-style: italic;
+        padding: 20px;
+        margin: 20px;
+    }
+    h3{
+        font-size: 50px;
+        font-weight: 50px;
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+    .bigger{
+        font-size: 25px;
+        font-weight: 25pxs;
+    }
+    h5{
+        font-size: 30px;
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+.form-center{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.conta{
+    background-color: blue;
+}
+input{
+    margin-top: 3px;
+    background-color: whitesmoke;
+    width: 100%;
+} 
+button{
+    width:100%;
+    margin-top: 10px;
+    padding-bottom: 10PX;
+    margin-bottom: 20PX;
+    background-color: red; 
+    }
+footer{
+    width:100%;
+    height: 100PX;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: black;
+    color: #ccc;
+    text-align: center;
+    display: block;
+    padding-top: 5PX;
+}
